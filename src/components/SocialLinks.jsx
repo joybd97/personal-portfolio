@@ -40,7 +40,7 @@ const SocialLinks = () => {
           Resume <BsFillPersonLinesFill size={30} />
         </>
       ),
-      href: "../../public/mania-ahmed-joy.pdf",
+      href: "/mania-ahmed-joy.pdf",
       style: "rounded-br-md",
       download: true,
     },
