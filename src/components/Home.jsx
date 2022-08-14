@@ -2,6 +2,8 @@ import React from "react";
 import Joy from "../assets/joy.jpg";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
+import Typical from 'react-typical'
+
 
 const Home = () => {
   return (
@@ -14,6 +16,19 @@ const Home = () => {
           <h4 className="text-4xl sm:text-7xl font-bold text-white">
             I'm Md. Mania Ahmed Joy
           </h4>
+          <div className="text-white text-xl">
+          
+          <h3>
+          I am a {' '}
+              <Typical
+            
+            loop={Infinity}
+            wrapper="b"
+            steps={['Software Engineer ', 2000, 'Web developer', 2000]}
+          />
+          </h3>
+          </div>
+
           <p className="text-gray-500 py-4 max-w-md">
             I have been building and desgining software.
             I love to work on web application using technologies like
